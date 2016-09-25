@@ -4,7 +4,7 @@ $method = $_SERVER['REQUEST_METHOD'];
 
 //Script Foreach
 $c = true;
-if ( $method === 'POST' ) {
+if ( $method === '*' ) {
 
 	$project_name = trim($_POST["project_name"]);
 	$admin_email  = trim($_POST["admin_email"]);
